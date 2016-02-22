@@ -21,12 +21,12 @@ function aritGeo(arr){
         
         if(is_arr){
             return "Arithmetic";
-        }else if(is_geo){
+        } else if(is_geo) {
             return "Geometric";
-        }else{
+        } else {
             return -1;
         }
-    } else{
+    } else {
         return 0;
     }
 }
